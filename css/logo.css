@@ -1,0 +1,16 @@
+/* Logo margin style */
+.logo-margin {
+  position: fixed;
+  top: 5px;
+  left: 30px;
+  z-index: 9999;
+  width: 100px;
+  height: auto;
+}
+@media (max-width: 600px) {
+  .logo-margin {
+    top: 10px;
+    left: 10px;
+    width: 70px;
+  }
+}
